@@ -1,2 +1,2 @@
 # PartyChat
-This is my own personal instant messaging application written in Java and using JavaFX. I reimplemented a multi-threaded server from a previoud(added some minor updates as well)
+This is my own personal instant messaging application written in Java and using JavaFX. I reimplemented a multi-threaded server from a previous project (added some minor updates as well), created a class that serves as the primary communicator between the client and server, and then created two client applications. One being a text client, mainly meant for an administrator, and another GUI based client meant for the every day user.
