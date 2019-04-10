@@ -13,25 +13,30 @@ import java.util.NoSuchElementException;
  *
  * @author Samuel Tregea
  * <p>
- * Last Modified: January 2, 2019
+ * Last Modified: April, 2019
  */
 public class ServerConnection {
+
     /**
      * the socket
      */
     private Socket sock;
+
     /**
-     * reads PlaceRequests from the server
+     * reads MessageRequests from the server
      */
     private ObjectInputStream clientIn;
+
     /**
-     * writes place requests to the server
+     * writes MessageRequests to the server
      */
     private ObjectOutputStream clientOut;
+
     /**
      * the model
      */
     private ChatRoom chatRoom;
+
     /**
      * true when you want this program to run
      */
